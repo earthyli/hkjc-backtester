@@ -1,0 +1,4006 @@
+[
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 1,
+        "win_odds": 33.1,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 2,
+        "win_odds": 47.9,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 3,
+        "win_odds": 20.1,
+        "pla_odds": 3.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 4,
+        "win_odds": 25.2,
+        "pla_odds": 3.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 5,
+        "win_odds": 28.2,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 6,
+        "win_odds": 54.4,
+        "pla_odds": 10.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 7,
+        "win_odds": 43.2,
+        "pla_odds": 4.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 8,
+        "win_odds": 6.4,
+        "pla_odds": 1.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 9,
+        "win_odds": 8.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 10,
+        "win_odds": 4.9,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 11,
+        "win_odds": 13.4,
+        "pla_odds": 2.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 12,
+        "win_odds": 23.8,
+        "pla_odds": 6.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_01",
+        "horse_no": 13,
+        "win_odds": 33.8,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 1,
+        "win_odds": 44.3,
+        "pla_odds": 7.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 2,
+        "win_odds": 9.6,
+        "pla_odds": 1.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 3,
+        "win_odds": 24.2,
+        "pla_odds": 5.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 4,
+        "win_odds": 38.4,
+        "pla_odds": 8.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 5,
+        "win_odds": 38.9,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 6,
+        "win_odds": 15.8,
+        "pla_odds": 2.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 7,
+        "win_odds": 33.3,
+        "pla_odds": 6.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 8,
+        "win_odds": 47.5,
+        "pla_odds": 5.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 9,
+        "win_odds": 6.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 10,
+        "win_odds": 22.6,
+        "pla_odds": 3.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 11,
+        "win_odds": 6.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 12,
+        "win_odds": 49.7,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 13,
+        "win_odds": 40.8,
+        "pla_odds": 5.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_02",
+        "horse_no": 14,
+        "win_odds": 6.4,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 1,
+        "win_odds": 14.8,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 2,
+        "win_odds": 29.4,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 3,
+        "win_odds": 59.9,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 4,
+        "win_odds": 35.5,
+        "pla_odds": 9.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 5,
+        "win_odds": 7.7,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 6,
+        "win_odds": 51.8,
+        "pla_odds": 8.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 7,
+        "win_odds": 48.0,
+        "pla_odds": 7.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 8,
+        "win_odds": 18.3,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 9,
+        "win_odds": 38.6,
+        "pla_odds": 9.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 10,
+        "win_odds": 7.5,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 11,
+        "win_odds": 27.8,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 12,
+        "win_odds": 54.2,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 13,
+        "win_odds": 13.4,
+        "pla_odds": 1.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_03",
+        "horse_no": 14,
+        "win_odds": 21.5,
+        "pla_odds": 5.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 1,
+        "win_odds": 31.7,
+        "pla_odds": 5.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 2,
+        "win_odds": 18.8,
+        "pla_odds": 2.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 3,
+        "win_odds": 25.3,
+        "pla_odds": 3.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 4,
+        "win_odds": 2.5,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 5,
+        "win_odds": 36.9,
+        "pla_odds": 9.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 6,
+        "win_odds": 3.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 7,
+        "win_odds": 16.8,
+        "pla_odds": 3.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 8,
+        "win_odds": 21.2,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 9,
+        "win_odds": 19.4,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 10,
+        "win_odds": 57.5,
+        "pla_odds": 10.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 11,
+        "win_odds": 15.1,
+        "pla_odds": 3.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 12,
+        "win_odds": 26.7,
+        "pla_odds": 3.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 13,
+        "win_odds": 20.4,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_04",
+        "horse_no": 14,
+        "win_odds": 30.1,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 1,
+        "win_odds": 16.8,
+        "pla_odds": 2.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 2,
+        "win_odds": 41.5,
+        "pla_odds": 9.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 3,
+        "win_odds": 17.6,
+        "pla_odds": 2.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 4,
+        "win_odds": 22.4,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 5,
+        "win_odds": 11.3,
+        "pla_odds": 1.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 6,
+        "win_odds": 20.9,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 7,
+        "win_odds": 14.8,
+        "pla_odds": 1.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 8,
+        "win_odds": 36.4,
+        "pla_odds": 6.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 9,
+        "win_odds": 46.7,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 10,
+        "win_odds": 53.3,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_05",
+        "horse_no": 11,
+        "win_odds": 5.6,
+        "pla_odds": 1.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 1,
+        "win_odds": 21.3,
+        "pla_odds": 2.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 2,
+        "win_odds": 35.3,
+        "pla_odds": 8.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 3,
+        "win_odds": 54.6,
+        "pla_odds": 8.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 4,
+        "win_odds": 53.6,
+        "pla_odds": 6.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 5,
+        "win_odds": 30.6,
+        "pla_odds": 6.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 6,
+        "win_odds": 36.6,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 7,
+        "win_odds": 26.3,
+        "pla_odds": 5.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 8,
+        "win_odds": 38.0,
+        "pla_odds": 9.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 9,
+        "win_odds": 52.0,
+        "pla_odds": 9.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 10,
+        "win_odds": 32.4,
+        "pla_odds": 5.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 11,
+        "win_odds": 3.5,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 12,
+        "win_odds": 58.3,
+        "pla_odds": 7.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 13,
+        "win_odds": 50.5,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_06",
+        "horse_no": 14,
+        "win_odds": 52.2,
+        "pla_odds": 6.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 1,
+        "win_odds": 34.0,
+        "pla_odds": 4.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 2,
+        "win_odds": 38.2,
+        "pla_odds": 6.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 3,
+        "win_odds": 30.3,
+        "pla_odds": 4.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 4,
+        "win_odds": 59.2,
+        "pla_odds": 9.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 5,
+        "win_odds": 17.8,
+        "pla_odds": 2.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 6,
+        "win_odds": 12.5,
+        "pla_odds": 2.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 7,
+        "win_odds": 43.4,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 8,
+        "win_odds": 28.2,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 9,
+        "win_odds": 28.6,
+        "pla_odds": 4.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 10,
+        "win_odds": 43.2,
+        "pla_odds": 9.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 11,
+        "win_odds": 51.5,
+        "pla_odds": 6.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 12,
+        "win_odds": 19.7,
+        "pla_odds": 5.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 13,
+        "win_odds": 25.0,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_07",
+        "horse_no": 14,
+        "win_odds": 10.4,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 1,
+        "win_odds": 50.2,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 2,
+        "win_odds": 12.6,
+        "pla_odds": 1.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 3,
+        "win_odds": 8.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 4,
+        "win_odds": 4.8,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 5,
+        "win_odds": 12.3,
+        "pla_odds": 3.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 6,
+        "win_odds": 11.6,
+        "pla_odds": 1.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 7,
+        "win_odds": 17.3,
+        "pla_odds": 2.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 8,
+        "win_odds": 2.3,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 9,
+        "win_odds": 5.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 10,
+        "win_odds": 9.5,
+        "pla_odds": 1.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 11,
+        "win_odds": 29.1,
+        "pla_odds": 8.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 12,
+        "win_odds": 23.6,
+        "pla_odds": 3.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 13,
+        "win_odds": 15.8,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_08",
+        "horse_no": 14,
+        "win_odds": 41.2,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 1,
+        "win_odds": 12.0,
+        "pla_odds": 1.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 2,
+        "win_odds": 41.8,
+        "pla_odds": 8.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 3,
+        "win_odds": 23.3,
+        "pla_odds": 4.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 4,
+        "win_odds": 16.2,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 5,
+        "win_odds": 16.4,
+        "pla_odds": 3.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 6,
+        "win_odds": 4.8,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 7,
+        "win_odds": 13.9,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 8,
+        "win_odds": 29.5,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 9,
+        "win_odds": 36.3,
+        "pla_odds": 9.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 10,
+        "win_odds": 45.8,
+        "pla_odds": 5.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 11,
+        "win_odds": 56.4,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260517_09",
+        "horse_no": 12,
+        "win_odds": 19.1,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 1,
+        "win_odds": 59.7,
+        "pla_odds": 8.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 2,
+        "win_odds": 28.1,
+        "pla_odds": 3.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 3,
+        "win_odds": 25.3,
+        "pla_odds": 3.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 4,
+        "win_odds": 51.9,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 5,
+        "win_odds": 23.4,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 6,
+        "win_odds": 28.7,
+        "pla_odds": 5.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 7,
+        "win_odds": 12.5,
+        "pla_odds": 1.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 8,
+        "win_odds": 41.6,
+        "pla_odds": 5.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 9,
+        "win_odds": 27.2,
+        "pla_odds": 5.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 10,
+        "win_odds": 24.2,
+        "pla_odds": 5.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 11,
+        "win_odds": 10.3,
+        "pla_odds": 2.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 12,
+        "win_odds": 59.6,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 13,
+        "win_odds": 2.9,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_01",
+        "horse_no": 14,
+        "win_odds": 38.4,
+        "pla_odds": 5.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 1,
+        "win_odds": 59.7,
+        "pla_odds": 11.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 2,
+        "win_odds": 19.1,
+        "pla_odds": 3.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 3,
+        "win_odds": 45.8,
+        "pla_odds": 5.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 4,
+        "win_odds": 13.0,
+        "pla_odds": 1.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 5,
+        "win_odds": 18.9,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 6,
+        "win_odds": 4.8,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 7,
+        "win_odds": 49.5,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 8,
+        "win_odds": 12.1,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 9,
+        "win_odds": 43.6,
+        "pla_odds": 11.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 10,
+        "win_odds": 13.7,
+        "pla_odds": 1.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 11,
+        "win_odds": 58.3,
+        "pla_odds": 8.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 12,
+        "win_odds": 43.0,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 13,
+        "win_odds": 44.8,
+        "pla_odds": 11.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_02",
+        "horse_no": 14,
+        "win_odds": 31.1,
+        "pla_odds": 3.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 1,
+        "win_odds": 37.5,
+        "pla_odds": 6.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 2,
+        "win_odds": 55.7,
+        "pla_odds": 10.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 3,
+        "win_odds": 46.4,
+        "pla_odds": 5.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 4,
+        "win_odds": 29.9,
+        "pla_odds": 4.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 5,
+        "win_odds": 52.7,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 6,
+        "win_odds": 38.6,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 7,
+        "win_odds": 18.8,
+        "pla_odds": 3.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 8,
+        "win_odds": 5.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 9,
+        "win_odds": 52.3,
+        "pla_odds": 5.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 10,
+        "win_odds": 28.5,
+        "pla_odds": 6.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 11,
+        "win_odds": 52.4,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_03",
+        "horse_no": 12,
+        "win_odds": 59.1,
+        "pla_odds": 11.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 1,
+        "win_odds": 33.0,
+        "pla_odds": 5.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 2,
+        "win_odds": 28.9,
+        "pla_odds": 5.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 3,
+        "win_odds": 9.7,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 4,
+        "win_odds": 9.0,
+        "pla_odds": 1.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 5,
+        "win_odds": 15.3,
+        "pla_odds": 2.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 6,
+        "win_odds": 26.6,
+        "pla_odds": 3.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 7,
+        "win_odds": 24.4,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 8,
+        "win_odds": 56.4,
+        "pla_odds": 11.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 9,
+        "win_odds": 24.6,
+        "pla_odds": 3.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 10,
+        "win_odds": 5.6,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_04",
+        "horse_no": 11,
+        "win_odds": 3.4,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 1,
+        "win_odds": 28.2,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 2,
+        "win_odds": 58.4,
+        "pla_odds": 13.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 3,
+        "win_odds": 29.1,
+        "pla_odds": 4.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 4,
+        "win_odds": 52.8,
+        "pla_odds": 10.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 5,
+        "win_odds": 21.9,
+        "pla_odds": 3.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 6,
+        "win_odds": 27.7,
+        "pla_odds": 3.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 7,
+        "win_odds": 50.3,
+        "pla_odds": 7.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 8,
+        "win_odds": 9.5,
+        "pla_odds": 1.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 9,
+        "win_odds": 23.8,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 10,
+        "win_odds": 13.4,
+        "pla_odds": 1.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 11,
+        "win_odds": 38.6,
+        "pla_odds": 5.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_05",
+        "horse_no": 12,
+        "win_odds": 23.0,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 1,
+        "win_odds": 38.4,
+        "pla_odds": 8.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 2,
+        "win_odds": 24.5,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 3,
+        "win_odds": 9.8,
+        "pla_odds": 1.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 4,
+        "win_odds": 37.0,
+        "pla_odds": 5.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 5,
+        "win_odds": 27.8,
+        "pla_odds": 7.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 6,
+        "win_odds": 3.5,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 7,
+        "win_odds": 45.1,
+        "pla_odds": 5.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 8,
+        "win_odds": 12.8,
+        "pla_odds": 2.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 9,
+        "win_odds": 37.0,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 10,
+        "win_odds": 34.8,
+        "pla_odds": 6.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 11,
+        "win_odds": 55.1,
+        "pla_odds": 9.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 12,
+        "win_odds": 21.5,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_06",
+        "horse_no": 13,
+        "win_odds": 54.8,
+        "pla_odds": 9.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 1,
+        "win_odds": 9.6,
+        "pla_odds": 1.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 2,
+        "win_odds": 41.0,
+        "pla_odds": 6.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 3,
+        "win_odds": 2.1,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 4,
+        "win_odds": 41.5,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 5,
+        "win_odds": 57.9,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 6,
+        "win_odds": 25.4,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 7,
+        "win_odds": 20.6,
+        "pla_odds": 3.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 8,
+        "win_odds": 12.6,
+        "pla_odds": 3.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 9,
+        "win_odds": 39.2,
+        "pla_odds": 8.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 10,
+        "win_odds": 26.1,
+        "pla_odds": 3.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 11,
+        "win_odds": 57.2,
+        "pla_odds": 8.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_07",
+        "horse_no": 12,
+        "win_odds": 11.4,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 1,
+        "win_odds": 56.0,
+        "pla_odds": 14.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 2,
+        "win_odds": 34.9,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 3,
+        "win_odds": 9.6,
+        "pla_odds": 1.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 4,
+        "win_odds": 56.2,
+        "pla_odds": 10.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 5,
+        "win_odds": 14.7,
+        "pla_odds": 4.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 6,
+        "win_odds": 2.6,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 7,
+        "win_odds": 41.3,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 8,
+        "win_odds": 59.4,
+        "pla_odds": 8.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 9,
+        "win_odds": 10.0,
+        "pla_odds": 2.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 10,
+        "win_odds": 21.8,
+        "pla_odds": 2.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 11,
+        "win_odds": 43.8,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_08",
+        "horse_no": 12,
+        "win_odds": 33.3,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 1,
+        "win_odds": 12.3,
+        "pla_odds": 1.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 2,
+        "win_odds": 39.9,
+        "pla_odds": 6.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 3,
+        "win_odds": 17.8,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 4,
+        "win_odds": 5.8,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 5,
+        "win_odds": 36.6,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 6,
+        "win_odds": 43.2,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 7,
+        "win_odds": 19.7,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 8,
+        "win_odds": 26.8,
+        "pla_odds": 5.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 9,
+        "win_odds": 59.4,
+        "pla_odds": 11.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 10,
+        "win_odds": 16.2,
+        "pla_odds": 2.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 11,
+        "win_odds": 24.4,
+        "pla_odds": 3.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 12,
+        "win_odds": 23.9,
+        "pla_odds": 3.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 13,
+        "win_odds": 40.8,
+        "pla_odds": 9.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260521_09",
+        "horse_no": 14,
+        "win_odds": 4.8,
+        "pla_odds": 1.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 1,
+        "win_odds": 19.6,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 2,
+        "win_odds": 14.5,
+        "pla_odds": 2.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 3,
+        "win_odds": 42.0,
+        "pla_odds": 6.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 4,
+        "win_odds": 43.4,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 5,
+        "win_odds": 2.3,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 6,
+        "win_odds": 7.5,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 7,
+        "win_odds": 7.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 8,
+        "win_odds": 47.2,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 9,
+        "win_odds": 39.0,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 10,
+        "win_odds": 53.4,
+        "pla_odds": 14.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 11,
+        "win_odds": 30.3,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 12,
+        "win_odds": 51.9,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_01",
+        "horse_no": 13,
+        "win_odds": 6.9,
+        "pla_odds": 1.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 1,
+        "win_odds": 11.1,
+        "pla_odds": 3.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 2,
+        "win_odds": 42.5,
+        "pla_odds": 6.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 3,
+        "win_odds": 21.5,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 4,
+        "win_odds": 29.3,
+        "pla_odds": 5.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 5,
+        "win_odds": 57.0,
+        "pla_odds": 14.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 6,
+        "win_odds": 59.9,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 7,
+        "win_odds": 52.0,
+        "pla_odds": 6.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 8,
+        "win_odds": 31.2,
+        "pla_odds": 7.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 9,
+        "win_odds": 48.8,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 10,
+        "win_odds": 19.5,
+        "pla_odds": 3.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_02",
+        "horse_no": 11,
+        "win_odds": 21.9,
+        "pla_odds": 3.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 1,
+        "win_odds": 3.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 2,
+        "win_odds": 10.2,
+        "pla_odds": 1.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 3,
+        "win_odds": 25.3,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 4,
+        "win_odds": 40.8,
+        "pla_odds": 5.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 5,
+        "win_odds": 16.2,
+        "pla_odds": 4.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 6,
+        "win_odds": 19.1,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 7,
+        "win_odds": 57.0,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 8,
+        "win_odds": 47.2,
+        "pla_odds": 10.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 9,
+        "win_odds": 45.9,
+        "pla_odds": 6.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 10,
+        "win_odds": 41.3,
+        "pla_odds": 6.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 11,
+        "win_odds": 3.3,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 12,
+        "win_odds": 23.4,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_03",
+        "horse_no": 13,
+        "win_odds": 39.6,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 1,
+        "win_odds": 47.3,
+        "pla_odds": 6.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 2,
+        "win_odds": 22.2,
+        "pla_odds": 3.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 3,
+        "win_odds": 2.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 4,
+        "win_odds": 5.3,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 5,
+        "win_odds": 19.2,
+        "pla_odds": 4.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 6,
+        "win_odds": 36.3,
+        "pla_odds": 8.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 7,
+        "win_odds": 3.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 8,
+        "win_odds": 23.6,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 9,
+        "win_odds": 8.1,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 10,
+        "win_odds": 47.0,
+        "pla_odds": 7.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 11,
+        "win_odds": 50.1,
+        "pla_odds": 6.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 12,
+        "win_odds": 37.3,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 13,
+        "win_odds": 31.3,
+        "pla_odds": 6.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_04",
+        "horse_no": 14,
+        "win_odds": 5.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 1,
+        "win_odds": 36.1,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 2,
+        "win_odds": 25.8,
+        "pla_odds": 3.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 3,
+        "win_odds": 17.5,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 4,
+        "win_odds": 28.9,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 5,
+        "win_odds": 23.8,
+        "pla_odds": 6.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 6,
+        "win_odds": 30.7,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 7,
+        "win_odds": 29.1,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 8,
+        "win_odds": 16.5,
+        "pla_odds": 4.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 9,
+        "win_odds": 8.6,
+        "pla_odds": 2.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 10,
+        "win_odds": 5.3,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 11,
+        "win_odds": 3.9,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 12,
+        "win_odds": 56.4,
+        "pla_odds": 7.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 13,
+        "win_odds": 53.2,
+        "pla_odds": 10.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_05",
+        "horse_no": 14,
+        "win_odds": 6.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 1,
+        "win_odds": 54.1,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 2,
+        "win_odds": 33.2,
+        "pla_odds": 5.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 3,
+        "win_odds": 22.6,
+        "pla_odds": 2.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 4,
+        "win_odds": 41.5,
+        "pla_odds": 10.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 5,
+        "win_odds": 52.7,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 6,
+        "win_odds": 33.9,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 7,
+        "win_odds": 35.1,
+        "pla_odds": 4.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 8,
+        "win_odds": 16.7,
+        "pla_odds": 3.5,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 9,
+        "win_odds": 18.4,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 10,
+        "win_odds": 10.9,
+        "pla_odds": 1.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 11,
+        "win_odds": 11.3,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 12,
+        "win_odds": 15.9,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_06",
+        "horse_no": 13,
+        "win_odds": 50.5,
+        "pla_odds": 7.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 1,
+        "win_odds": 46.5,
+        "pla_odds": 5.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 2,
+        "win_odds": 47.2,
+        "pla_odds": 8.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 3,
+        "win_odds": 37.2,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 4,
+        "win_odds": 19.0,
+        "pla_odds": 4.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 5,
+        "win_odds": 55.8,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 6,
+        "win_odds": 45.7,
+        "pla_odds": 4.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 7,
+        "win_odds": 29.5,
+        "pla_odds": 7.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 8,
+        "win_odds": 59.9,
+        "pla_odds": 9.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 9,
+        "win_odds": 10.7,
+        "pla_odds": 2.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 10,
+        "win_odds": 30.6,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_07",
+        "horse_no": 11,
+        "win_odds": 33.5,
+        "pla_odds": 5.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 1,
+        "win_odds": 25.7,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 2,
+        "win_odds": 20.6,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 3,
+        "win_odds": 26.0,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 4,
+        "win_odds": 19.9,
+        "pla_odds": 3.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 5,
+        "win_odds": 11.4,
+        "pla_odds": 2.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 6,
+        "win_odds": 12.9,
+        "pla_odds": 2.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 7,
+        "win_odds": 32.4,
+        "pla_odds": 6.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 8,
+        "win_odds": 57.0,
+        "pla_odds": 11.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 9,
+        "win_odds": 21.6,
+        "pla_odds": 5.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 10,
+        "win_odds": 9.8,
+        "pla_odds": 1.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_08",
+        "horse_no": 11,
+        "win_odds": 2.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 1,
+        "win_odds": 51.1,
+        "pla_odds": 6.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 2,
+        "win_odds": 16.1,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 3,
+        "win_odds": 20.2,
+        "pla_odds": 2.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 4,
+        "win_odds": 6.4,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 5,
+        "win_odds": 4.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 6,
+        "win_odds": 3.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 7,
+        "win_odds": 27.4,
+        "pla_odds": 4.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 8,
+        "win_odds": 30.3,
+        "pla_odds": 4.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 9,
+        "win_odds": 54.2,
+        "pla_odds": 12.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 10,
+        "win_odds": 20.8,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 11,
+        "win_odds": 32.0,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 12,
+        "win_odds": 18.8,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 13,
+        "win_odds": 59.9,
+        "pla_odds": 13.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260524_09",
+        "horse_no": 14,
+        "win_odds": 14.6,
+        "pla_odds": 3.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 1,
+        "win_odds": 4.4,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 2,
+        "win_odds": 3.6,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 3,
+        "win_odds": 20.6,
+        "pla_odds": 3.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 4,
+        "win_odds": 9.5,
+        "pla_odds": 2.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 5,
+        "win_odds": 58.4,
+        "pla_odds": 7.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 6,
+        "win_odds": 29.8,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 7,
+        "win_odds": 43.3,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 8,
+        "win_odds": 56.9,
+        "pla_odds": 7.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 9,
+        "win_odds": 22.7,
+        "pla_odds": 2.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 10,
+        "win_odds": 37.4,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 11,
+        "win_odds": 41.0,
+        "pla_odds": 9.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 12,
+        "win_odds": 28.5,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 13,
+        "win_odds": 43.1,
+        "pla_odds": 5.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_01",
+        "horse_no": 14,
+        "win_odds": 22.7,
+        "pla_odds": 3.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 1,
+        "win_odds": 56.3,
+        "pla_odds": 13.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 2,
+        "win_odds": 56.4,
+        "pla_odds": 10.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 3,
+        "win_odds": 21.6,
+        "pla_odds": 2.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 4,
+        "win_odds": 13.4,
+        "pla_odds": 2.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 5,
+        "win_odds": 33.6,
+        "pla_odds": 4.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 6,
+        "win_odds": 37.0,
+        "pla_odds": 7.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 7,
+        "win_odds": 21.5,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 8,
+        "win_odds": 45.3,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 9,
+        "win_odds": 14.5,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 10,
+        "win_odds": 42.6,
+        "pla_odds": 11.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_02",
+        "horse_no": 11,
+        "win_odds": 14.2,
+        "pla_odds": 2.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 1,
+        "win_odds": 21.7,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 2,
+        "win_odds": 50.9,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 3,
+        "win_odds": 43.4,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 4,
+        "win_odds": 22.8,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 5,
+        "win_odds": 35.4,
+        "pla_odds": 7.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 6,
+        "win_odds": 41.9,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 7,
+        "win_odds": 27.1,
+        "pla_odds": 5.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 8,
+        "win_odds": 33.6,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 9,
+        "win_odds": 23.1,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 10,
+        "win_odds": 8.1,
+        "pla_odds": 2.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_03",
+        "horse_no": 11,
+        "win_odds": 37.4,
+        "pla_odds": 9.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 1,
+        "win_odds": 42.9,
+        "pla_odds": 6.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 2,
+        "win_odds": 59.4,
+        "pla_odds": 15.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 3,
+        "win_odds": 47.5,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 4,
+        "win_odds": 5.6,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 5,
+        "win_odds": 32.8,
+        "pla_odds": 4.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 6,
+        "win_odds": 29.1,
+        "pla_odds": 3.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 7,
+        "win_odds": 29.9,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 8,
+        "win_odds": 23.7,
+        "pla_odds": 3.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 9,
+        "win_odds": 25.8,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 10,
+        "win_odds": 43.6,
+        "pla_odds": 9.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 11,
+        "win_odds": 30.7,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 12,
+        "win_odds": 15.3,
+        "pla_odds": 2.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 13,
+        "win_odds": 28.5,
+        "pla_odds": 7.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_04",
+        "horse_no": 14,
+        "win_odds": 20.7,
+        "pla_odds": 2.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 1,
+        "win_odds": 25.9,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 2,
+        "win_odds": 53.6,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 3,
+        "win_odds": 10.7,
+        "pla_odds": 2.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 4,
+        "win_odds": 20.4,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 5,
+        "win_odds": 30.9,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 6,
+        "win_odds": 23.7,
+        "pla_odds": 2.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 7,
+        "win_odds": 30.6,
+        "pla_odds": 3.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 8,
+        "win_odds": 56.8,
+        "pla_odds": 10.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 9,
+        "win_odds": 3.4,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 10,
+        "win_odds": 29.4,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 11,
+        "win_odds": 30.6,
+        "pla_odds": 8.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 12,
+        "win_odds": 24.9,
+        "pla_odds": 3.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 13,
+        "win_odds": 54.3,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_05",
+        "horse_no": 14,
+        "win_odds": 44.2,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 1,
+        "win_odds": 7.7,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 2,
+        "win_odds": 43.4,
+        "pla_odds": 8.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 3,
+        "win_odds": 19.1,
+        "pla_odds": 2.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 4,
+        "win_odds": 47.7,
+        "pla_odds": 9.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 5,
+        "win_odds": 22.8,
+        "pla_odds": 3.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 6,
+        "win_odds": 56.8,
+        "pla_odds": 9.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 7,
+        "win_odds": 6.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 8,
+        "win_odds": 51.9,
+        "pla_odds": 7.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 9,
+        "win_odds": 48.8,
+        "pla_odds": 11.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 10,
+        "win_odds": 53.2,
+        "pla_odds": 7.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 11,
+        "win_odds": 8.4,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 12,
+        "win_odds": 14.3,
+        "pla_odds": 3.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 13,
+        "win_odds": 42.8,
+        "pla_odds": 6.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_06",
+        "horse_no": 14,
+        "win_odds": 38.9,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 1,
+        "win_odds": 53.0,
+        "pla_odds": 9.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 2,
+        "win_odds": 16.6,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 3,
+        "win_odds": 12.1,
+        "pla_odds": 3.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 4,
+        "win_odds": 29.9,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 5,
+        "win_odds": 47.1,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 6,
+        "win_odds": 35.9,
+        "pla_odds": 4.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 7,
+        "win_odds": 25.0,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 8,
+        "win_odds": 20.7,
+        "pla_odds": 2.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 9,
+        "win_odds": 52.4,
+        "pla_odds": 7.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 10,
+        "win_odds": 42.0,
+        "pla_odds": 5.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 11,
+        "win_odds": 8.3,
+        "pla_odds": 1.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 12,
+        "win_odds": 33.6,
+        "pla_odds": 7.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_07",
+        "horse_no": 13,
+        "win_odds": 51.9,
+        "pla_odds": 6.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 1,
+        "win_odds": 52.7,
+        "pla_odds": 6.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 2,
+        "win_odds": 16.4,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 3,
+        "win_odds": 31.5,
+        "pla_odds": 7.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 4,
+        "win_odds": 57.8,
+        "pla_odds": 12.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 5,
+        "win_odds": 49.6,
+        "pla_odds": 8.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 6,
+        "win_odds": 14.9,
+        "pla_odds": 2.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 7,
+        "win_odds": 43.7,
+        "pla_odds": 10.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 8,
+        "win_odds": 53.1,
+        "pla_odds": 10.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 9,
+        "win_odds": 45.9,
+        "pla_odds": 6.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 10,
+        "win_odds": 29.3,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 11,
+        "win_odds": 26.3,
+        "pla_odds": 3.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 12,
+        "win_odds": 55.1,
+        "pla_odds": 6.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_08",
+        "horse_no": 13,
+        "win_odds": 5.2,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 1,
+        "win_odds": 47.3,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 2,
+        "win_odds": 12.4,
+        "pla_odds": 1.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 3,
+        "win_odds": 47.1,
+        "pla_odds": 9.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 4,
+        "win_odds": 18.4,
+        "pla_odds": 4.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 5,
+        "win_odds": 33.4,
+        "pla_odds": 5.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 6,
+        "win_odds": 43.7,
+        "pla_odds": 6.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 7,
+        "win_odds": 33.7,
+        "pla_odds": 4.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 8,
+        "win_odds": 32.9,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 9,
+        "win_odds": 42.6,
+        "pla_odds": 9.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 10,
+        "win_odds": 33.0,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 11,
+        "win_odds": 22.8,
+        "pla_odds": 3.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260531_09",
+        "horse_no": 12,
+        "win_odds": 32.5,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 1,
+        "win_odds": 57.1,
+        "pla_odds": 7.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 2,
+        "win_odds": 20.9,
+        "pla_odds": 2.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 3,
+        "win_odds": 30.4,
+        "pla_odds": 6.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 4,
+        "win_odds": 57.2,
+        "pla_odds": 7.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 5,
+        "win_odds": 13.7,
+        "pla_odds": 3.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 6,
+        "win_odds": 15.5,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 7,
+        "win_odds": 38.3,
+        "pla_odds": 5.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 8,
+        "win_odds": 18.5,
+        "pla_odds": 2.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 9,
+        "win_odds": 43.2,
+        "pla_odds": 5.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 10,
+        "win_odds": 33.7,
+        "pla_odds": 8.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 11,
+        "win_odds": 6.1,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 12,
+        "win_odds": 38.1,
+        "pla_odds": 4.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_01",
+        "horse_no": 13,
+        "win_odds": 9.1,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 1,
+        "win_odds": 53.4,
+        "pla_odds": 8.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 2,
+        "win_odds": 44.1,
+        "pla_odds": 6.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 3,
+        "win_odds": 51.6,
+        "pla_odds": 14.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 4,
+        "win_odds": 16.7,
+        "pla_odds": 1.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 5,
+        "win_odds": 31.7,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 6,
+        "win_odds": 33.4,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 7,
+        "win_odds": 6.8,
+        "pla_odds": 1.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 8,
+        "win_odds": 39.7,
+        "pla_odds": 6.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 9,
+        "win_odds": 51.9,
+        "pla_odds": 8.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 10,
+        "win_odds": 8.7,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_02",
+        "horse_no": 11,
+        "win_odds": 13.2,
+        "pla_odds": 1.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 1,
+        "win_odds": 49.2,
+        "pla_odds": 12.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 2,
+        "win_odds": 29.3,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 3,
+        "win_odds": 27.8,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 4,
+        "win_odds": 12.9,
+        "pla_odds": 2.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 5,
+        "win_odds": 21.4,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 6,
+        "win_odds": 52.3,
+        "pla_odds": 6.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 7,
+        "win_odds": 30.8,
+        "pla_odds": 7.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 8,
+        "win_odds": 31.7,
+        "pla_odds": 5.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 9,
+        "win_odds": 12.4,
+        "pla_odds": 1.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 10,
+        "win_odds": 55.6,
+        "pla_odds": 8.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_03",
+        "horse_no": 11,
+        "win_odds": 31.0,
+        "pla_odds": 5.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 1,
+        "win_odds": 32.6,
+        "pla_odds": 4.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 2,
+        "win_odds": 8.1,
+        "pla_odds": 1.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 3,
+        "win_odds": 3.6,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 4,
+        "win_odds": 19.6,
+        "pla_odds": 4.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 5,
+        "win_odds": 51.2,
+        "pla_odds": 9.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 6,
+        "win_odds": 32.1,
+        "pla_odds": 6.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 7,
+        "win_odds": 4.1,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 8,
+        "win_odds": 12.3,
+        "pla_odds": 2.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 9,
+        "win_odds": 29.1,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 10,
+        "win_odds": 47.9,
+        "pla_odds": 7.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_04",
+        "horse_no": 11,
+        "win_odds": 39.1,
+        "pla_odds": 10.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 1,
+        "win_odds": 3.9,
+        "pla_odds": 1.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 2,
+        "win_odds": 34.8,
+        "pla_odds": 5.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 3,
+        "win_odds": 5.8,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 4,
+        "win_odds": 59.4,
+        "pla_odds": 13.3,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 5,
+        "win_odds": 20.0,
+        "pla_odds": 3.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 6,
+        "win_odds": 42.1,
+        "pla_odds": 7.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 7,
+        "win_odds": 32.3,
+        "pla_odds": 6.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 8,
+        "win_odds": 29.8,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 9,
+        "win_odds": 8.4,
+        "pla_odds": 2.2,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 10,
+        "win_odds": 9.0,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 11,
+        "win_odds": 24.9,
+        "pla_odds": 3.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 12,
+        "win_odds": 18.7,
+        "pla_odds": 3.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_05",
+        "horse_no": 13,
+        "win_odds": 29.6,
+        "pla_odds": 4.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 1,
+        "win_odds": 44.7,
+        "pla_odds": 5.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 2,
+        "win_odds": 6.7,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 3,
+        "win_odds": 37.8,
+        "pla_odds": 7.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 4,
+        "win_odds": 10.7,
+        "pla_odds": 2.6,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 5,
+        "win_odds": 45.3,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 6,
+        "win_odds": 22.5,
+        "pla_odds": 4.1,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 7,
+        "win_odds": 29.0,
+        "pla_odds": 5.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 8,
+        "win_odds": 56.7,
+        "pla_odds": 9.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 9,
+        "win_odds": 42.3,
+        "pla_odds": 6.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 10,
+        "win_odds": 44.5,
+        "pla_odds": 8.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 11,
+        "win_odds": 26.5,
+        "pla_odds": 4.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_06",
+        "horse_no": 12,
+        "win_odds": 39.6,
+        "pla_odds": 5.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 1,
+        "win_odds": 54.8,
+        "pla_odds": 10.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 2,
+        "win_odds": 2.3,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 3,
+        "win_odds": 40.6,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 4,
+        "win_odds": 59.2,
+        "pla_odds": 8.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 5,
+        "win_odds": 56.1,
+        "pla_odds": 7.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 6,
+        "win_odds": 5.3,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 7,
+        "win_odds": 36.7,
+        "pla_odds": 8.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 8,
+        "win_odds": 52.0,
+        "pla_odds": 7.8,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 9,
+        "win_odds": 28.8,
+        "pla_odds": 6.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 10,
+        "win_odds": 8.2,
+        "pla_odds": 1.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 11,
+        "win_odds": 46.7,
+        "pla_odds": 8.5,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 12,
+        "win_odds": 41.0,
+        "pla_odds": 8.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_07",
+        "horse_no": 13,
+        "win_odds": 22.6,
+        "pla_odds": 4.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 1,
+        "win_odds": 29.1,
+        "pla_odds": 3.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 2,
+        "win_odds": 29.8,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 3,
+        "win_odds": 50.2,
+        "pla_odds": 8.6,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 4,
+        "win_odds": 17.4,
+        "pla_odds": 3.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 5,
+        "win_odds": 41.1,
+        "pla_odds": 7.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 6,
+        "win_odds": 27.4,
+        "pla_odds": 3.7,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 7,
+        "win_odds": 22.5,
+        "pla_odds": 4.9,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 8,
+        "win_odds": 40.0,
+        "pla_odds": 6.0,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 9,
+        "win_odds": 53.5,
+        "pla_odds": 10.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 10,
+        "win_odds": 16.4,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_08",
+        "horse_no": 11,
+        "win_odds": 42.8,
+        "pla_odds": 9.0,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 1,
+        "win_odds": 43.2,
+        "pla_odds": 5.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 2,
+        "win_odds": 8.7,
+        "pla_odds": 1.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 3,
+        "win_odds": 23.4,
+        "pla_odds": 2.9,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 4,
+        "win_odds": 5.0,
+        "pla_odds": 1.1,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 5,
+        "win_odds": 29.5,
+        "pla_odds": 5.8,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 6,
+        "win_odds": 52.6,
+        "pla_odds": 14.4,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 7,
+        "win_odds": 16.8,
+        "pla_odds": 2.3,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 8,
+        "win_odds": 29.8,
+        "pla_odds": 4.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 9,
+        "win_odds": 25.3,
+        "pla_odds": 3.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 10,
+        "win_odds": 21.7,
+        "pla_odds": 4.7,
+        "is_top_three": true
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 11,
+        "win_odds": 17.8,
+        "pla_odds": 2.2,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 12,
+        "win_odds": 45.1,
+        "pla_odds": 6.4,
+        "is_top_three": false
+    },
+    {
+        "race_id": "日赛_20260607_09",
+        "horse_no": 13,
+        "win_odds": 50.3,
+        "pla_odds": 8.1,
+        "is_top_three": false
+    }
+]
