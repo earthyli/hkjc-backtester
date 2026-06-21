@@ -42,32 +42,43 @@ st.sidebar.markdown(f"""
 * 同场多匹触发时，冷静防守，**单场只推跌幅最大的一匹马**。
 """)
 
-# ==================== 🌟 满血升级版：网络请求伪装模块 ====================
+# ==================== 🌟 深度无盲区解耦请求模块 ====================
 def fetch_hkjc_live_odds(race_number):
     """
-    深度伪装穿透，强行获取马会大盘最新的公开实时动态赔率
+    无盲区数据抓取器：确保无论如何都暴露底层原始文本
     """
     url = f"https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_number}"
-    
-    # 模拟真实高配浏览器，并注入马会必备的 Referer 页面来源认证
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Referer': 'https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch',  # 告诉马会防火墙：我是在官方赔率页面里刷新的
-        'X-Requested-With': 'XMLHttpRequest',  # 声明这是标准的 AJAX 异步数据流请求
+        'Referer': 'https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch',
+        'X-Requested-With': 'XMLHttpRequest',
         'Connection': 'keep-alive'
     }
     try:
         response = requests.get(url, headers=headers, timeout=5)
-        if response.status_code == 200 and len(response.text) > 50:
-            # 校验是否为合法的 JSON 格式，排除拦截网页
+        raw_body = response.text if response.text else ""
+        
+        # 如果非 200，依然强制保留原始回执内容
+        if response.status_code != 200:
+            return {"status": "ERROR", "msg": f"服务器拒绝，状态码: {response.status_code}", "raw_text": raw_body[:2000]}
+            
+        if len(raw_body.strip()) <= 50:
+            return {"status": "EMPTY", "msg": "数据通道已通，但内容过短（盘口未激活）", "raw_text": raw_body}
+            
+        # 尝试安全解析 JSON
+        try:
             res_json = response.json()
             if "out" in res_json or "inv" in res_json:
-                return {"status": "SUCCESS", "data": res_json, "raw_text": response.text[:1000]}
-        return {"status": "EMPTY", "msg": f"网关已建立连接但暂未广播有效数据", "raw_text": response.text[:1000]}
+                return {"status": "SUCCESS", "data": res_json, "raw_text": raw_body[:2000]}
+            return {"status": "EMPTY", "msg": "成功获取JSON结构，但今天赛期数据尚未灌入", "raw_text": raw_body[:2000]}
+        except Exception as json_err:
+            # 🌟 关键解耦点：如果不是合法JSON，绝对不吞数据，原样展示接收到的文本！
+            return {"status": "PARSE_ERROR", "msg": f"非合法JSON报文（原因: {str(json_err)}）", "raw_text": raw_body[:2000]}
+            
     except Exception as e:
-        return {"status": "ERROR", "msg": f"请求遭拦截或网络超时: {str(e)}", "raw_text": "None"}
+        return {"status": "ERROR", "msg": f"网络物理层连接失败: {str(e)}", "raw_text": "None"}
 
 # 加载本地回测数据集
 @st.cache_data
@@ -95,21 +106,19 @@ if mode == "📊 历史策略回测":
         st.dataframe(results['details'].style.format({
             'win_odds': '{:.1f}', 'pla_odds': '{:.1f}', 'odds_ratio': '{:.2f}', 'payout': '${:.1f}'
         }), use_container_width=True)
-    else:
-        st.warning("⚠️ 未找到历史特征数据集。")
 
 # ==================== 模式 2：临场实时监控 ====================
 elif mode == "🚨 临场实时监控":
     st.title("🚨 HKJC 临场秒级资金异动监控 (网络穿透版)")
     
-    # 核心动作：实时叩击官方接口
+    # 核心动作：解耦抓取
     api_result = fetch_hkjc_live_odds(race_no)
     
-    # 🌟 固化的开发者显微镜组件：点击展开直接透视马会返回给我们的底层数据
-    with st.expander("🔍 开发者实时网关穿透透视镜 (Raw Data Monitor)"):
+    # 强制曝光透视镜
+    with st.expander("🔍 开发者实时网关穿透透视镜 (Raw Data Monitor)", expanded=True):
         st.write(f"📡 目标探测URL: `https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_no}`")
-        st.write(f"⚡ 接口当前状态: `{api_result['status']}` | 描述: `{api_result.get('msg', '正常沟通中')}`")
-        st.markdown("**🔄 马会服务器当前响应的前 600 个字符原始文本：**")
+        st.write(f"⚡ 接口当前状态: `{api_result['status']}` | 描述提示: `{api_result['msg']}`")
+        st.markdown("**🔄 马会服务器当前响应的原始文本（前 2000 个字符）：**")
         st.code(api_result["raw_text"], language="html" if "<html" in api_result["raw_text"] else "json")
 
     # 根据真实网络情况决策数据流
@@ -117,7 +126,7 @@ elif mode == "🚨 临场实时监控":
         st.success(f"🟢 **数据源状态**：深度伪装成功！已实时灌入第 {race_no} 场沙田现场大盘真实赔率。")
         is_simulation = False
     else:
-        st.warning(f"📢 **数据源状态提示**：真实网关未激活（{api_result['msg']}）。系统自动进入【黄昏赛仿真沙盒】。")
+        st.warning(f"📢 **数据源状态提示**：真实大盘流尚未就绪（{api_result['msg']}）。系统自动维护【仿真沙盒】。")
         is_simulation = True
 
     st.markdown("### 📅 当前监控赛事基本信息")
@@ -162,7 +171,6 @@ elif mode == "🚨 临场实时监控":
         with c2: st.metric("🛡️ 临场位置赔率", f"{signal['pla_odds']} 倍", delta=f"从 {signal['initial_pla_odds']} 暴跌")
         with c3: st.metric("📉 位置盘口缩水跌幅", f"{signal['pla_drop']*100:.1f}%", delta="突破防御上限", delta_color="inverse")
         with c4: st.metric("⚡ 当前独赢/位置比率", f"{signal['odds_ratio']:.2f}")
-        st.markdown(f"💡 **实战决策建议**：请立刻核对官方 **第 {race_no} 场** 赔率板。当前 **{int(signal['horse_no'])}号马** 触发了极强的聪明钱暗中吸筹机制，建议立即投入 **${bet_size} HKD** 锁定买入其 **位置 (PLACE)**！")
     else:
         st.success(f"✅ 第 {race_no} 场临场盘口未见异常大资金防御，属于散户博弈，建议冷静观望。")
         
@@ -171,7 +179,6 @@ elif mode == "🚨 临场实时监控":
     df_live['pla_drop_pct'] = ((df_live['initial_pla_odds'] - df_live['pla_odds']) / df_live['initial_pla_odds']) * 100
     
     st.dataframe(df_live.style.format({
-        'initial_pla_odds': '{:.1f}',
-        'win_odds': '{:.1f}', 'pla_odds': '{:.1f}', 
+        'initial_pla_odds': '{:.1f}', 'win_odds': '{:.1f}', 'pla_odds': '{:.1f}', 
         'odds_ratio': '{:.2f}', 'pla_drop_pct': '{:.1f}%'
     }), use_container_width=True)
