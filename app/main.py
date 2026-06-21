@@ -42,43 +42,56 @@ st.sidebar.markdown(f"""
 * 同场多匹触发时，冷静防守，**单场只推跌幅最大的一匹马**。
 """)
 
-# ==================== 🌟 深度无盲区解耦请求模块 ====================
+st.sidebar.caption("💡 提示：实战时建议锁定 Ratio 8.5 以上，跌幅 20% 以上。")
+
+# ==================== 🌟 满血重构：智能会话 Cookies 保持模块 ====================
 def fetch_hkjc_live_odds(race_number):
     """
-    无盲区数据抓取器：确保无论如何都暴露底层原始文本
+    智能两步走会话器：先上门拿饼干(Cookies)，再伸手要数据(JSON)
     """
-    url = f"https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_number}"
+    # 1. 创建一个具有持久状态的会话对象
+    session = requests.Session()
+    
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Referer': 'https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch',
         'X-Requested-With': 'XMLHttpRequest',
         'Connection': 'keep-alive'
     }
+    session.headers.update(headers)
+    
     try:
-        response = requests.get(url, headers=headers, timeout=5)
+        # 【第一步】：先假装访问合法的赔率前端大厅，强行让马会给我们的 session 种下合法的身份 Cookies
+        portal_url = "https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch"
+        session.get(portal_url, timeout=4)
+        
+        # 【第二步】：带着刚刚洗出来的全身 Cookies 凭证，堂堂正正索要真正的数据流
+        data_url = f"https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_number}"
+        
+        # 此时请求头需要指定 Referer 告知来源
+        live_headers = {'Referer': portal_url}
+        response = session.get(data_url, headers=live_headers, timeout=4)
+        
         raw_body = response.text if response.text else ""
         
-        # 如果非 200，依然强制保留原始回执内容
         if response.status_code != 200:
-            return {"status": "ERROR", "msg": f"服务器拒绝，状态码: {response.status_code}", "raw_text": raw_body[:2000]}
+            return {"status": "ERROR", "msg": f"物理拦截，状态码: {response.status_code}", "raw_text": raw_body[:1000]}
             
         if len(raw_body.strip()) <= 50:
-            return {"status": "EMPTY", "msg": "数据通道已通，但内容过短（盘口未激活）", "raw_text": raw_body}
+            return {"status": "EMPTY", "msg": "通道已开，但当前场次没有实时数据吐出", "raw_text": raw_body}
             
-        # 尝试安全解析 JSON
+        # 尝试解析
         try:
             res_json = response.json()
             if "out" in res_json or "inv" in res_json:
-                return {"status": "SUCCESS", "data": res_json, "raw_text": raw_body[:2000]}
-            return {"status": "EMPTY", "msg": "成功获取JSON结构，但今天赛期数据尚未灌入", "raw_text": raw_body[:2000]}
+                return {"status": "SUCCESS", "data": res_json, "raw_text": raw_body[:1000]}
+            return {"status": "EMPTY", "msg": "成功拿到完整JSON，但赛期内部特征字段尚未刷新", "raw_text": raw_body[:1000]}
         except Exception as json_err:
-            # 🌟 关键解耦点：如果不是合法JSON，绝对不吞数据，原样展示接收到的文本！
-            return {"status": "PARSE_ERROR", "msg": f"非合法JSON报文（原因: {str(json_err)}）", "raw_text": raw_body[:2000]}
+            return {"status": "PARSE_ERROR", "msg": f"响应依旧未能转化为JSON（原因: {str(json_err)}）", "raw_text": raw_body[:1000]}
             
     except Exception as e:
-        return {"status": "ERROR", "msg": f"网络物理层连接失败: {str(e)}", "raw_text": "None"}
+        return {"status": "ERROR", "msg": f"物理层通信崩溃: {str(e)}", "raw_text": "None"}
 
 # 加载本地回测数据集
 @st.cache_data
@@ -111,19 +124,16 @@ if mode == "📊 历史策略回测":
 elif mode == "🚨 临场实时监控":
     st.title("🚨 HKJC 临场秒级资金异动监控 (网络穿透版)")
     
-    # 核心动作：解耦抓取
     api_result = fetch_hkjc_live_odds(race_no)
     
-    # 强制曝光透视镜
     with st.expander("🔍 开发者实时网关穿透透视镜 (Raw Data Monitor)", expanded=True):
         st.write(f"📡 目标探测URL: `https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_no}`")
         st.write(f"⚡ 接口当前状态: `{api_result['status']}` | 描述提示: `{api_result['msg']}`")
-        st.markdown("**🔄 马会服务器当前响应的原始文本（前 2000 个字符）：**")
+        st.markdown("**🔄 马会服务器当前响应的原始文本：**")
         st.code(api_result["raw_text"], language="html" if "<html" in api_result["raw_text"] else "json")
 
-    # 根据真实网络情况决策数据流
     if api_result["status"] == "SUCCESS":
-        st.success(f"🟢 **数据源状态**：深度伪装成功！已实时灌入第 {race_no} 场沙田现场大盘真实赔率。")
+        st.success(f"🟢 **数据源状态**：会话Cookies注入成功！已成功穿透并灌入第 {race_no} 场沙田现场真实数据。")
         is_simulation = False
     else:
         st.warning(f"📢 **数据源状态提示**：真实大盘流尚未就绪（{api_result['msg']}）。系统自动维护【仿真沙盒】。")
@@ -140,7 +150,7 @@ elif mode == "🚨 临场实时监控":
     st.subheader(f"🕒 第 {race_no} 场开赛临场动向")
     
     if st.button("🔄 强制拉取最新秒级盘口数据"):
-        st.toast("正在重新向香港马会服务器发出伪装请求...", icon="⚡")
+        st.toast("正在重新使用智能会话向香港马会服务器发出请求...", icon="⚡")
         
     if is_simulation:
         np.random.seed(race_no + random.randint(1, 99))
