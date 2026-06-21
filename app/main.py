@@ -28,6 +28,11 @@ race_no = st.sidebar.selectbox(
     format_func=lambda x: f"第 {x} 场 (Race {x})"
 )
 
+# 🌟 核心破局武器：允许手动注入浏览器合法 Cookie 穿透防火墙
+st.sidebar.markdown("---")
+st.sidebar.header("🔑 极客实战认证")
+live_cookie = st.sidebar.text_input("输入浏览器 Cookie 令牌 (可选)", type="password", help="从马会赔率网页中复制的 Cookie 字段")
+
 st.sidebar.markdown("---")
 st.sidebar.header("📜 选马量化铁律说明")
 st.sidebar.markdown(f"""
@@ -36,43 +41,30 @@ st.sidebar.markdown(f"""
 >    `WIN 赔率 / PLA 赔率 >= {threshold:.1f}`
 > 2. **临场位置跌幅 (Late Steam)**：
 >    `(初始 PLA - 临场 PLA) / 初始 PLA >= {steam_drop*100:.0f}%`
-
-⚔️ **下注纪律备忘：**
-* **绝对不买独赢**，只买符合异动特征的**位置 (PLACE)**。
-* 同场多匹触发时，冷静防守，**单场只推跌幅最大的一匹马**。
 """)
 
-st.sidebar.caption("💡 提示：实战时建议锁定 Ratio 8.5 以上，跌幅 20% 以上。")
-
-# ==================== 🌟 满血重构：智能会话 Cookies 保持模块 ====================
-def fetch_hkjc_live_odds(race_number):
+# ==================== 🌟 满血重构：支持 Cookie 注入的网络模块 ====================
+def fetch_hkjc_live_odds(race_number, user_cookie=None):
     """
-    智能两步走会话器：先上门拿饼干(Cookies)，再伸手要数据(JSON)
+    支持手动 Cookie 穿透的网关数据抓取器
     """
-    # 1. 创建一个具有持久状态的会话对象
-    session = requests.Session()
+    url = f"https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_number}"
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Referer': 'https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch',
         'X-Requested-With': 'XMLHttpRequest',
         'Connection': 'keep-alive'
     }
-    session.headers.update(headers)
     
+    # 如果用户注入了浏览器 Cookie，直接顶配压入
+    if user_cookie and len(user_cookie.strip()) > 10:
+        headers['Cookie'] = user_cookie.strip()
+
     try:
-        # 【第一步】：先假装访问合法的赔率前端大厅，强行让马会给我们的 session 种下合法的身份 Cookies
-        portal_url = "https://bet.hkjc.com/racing/pages/odds_wp.aspx?lang=ch"
-        session.get(portal_url, timeout=4)
-        
-        # 【第二步】：带着刚刚洗出来的全身 Cookies 凭证，堂堂正正索要真正的数据流
-        data_url = f"https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_number}"
-        
-        # 此时请求头需要指定 Referer 告知来源
-        live_headers = {'Referer': portal_url}
-        response = session.get(data_url, headers=live_headers, timeout=4)
-        
+        response = requests.get(url, headers=headers, timeout=5)
         raw_body = response.text if response.text else ""
         
         if response.status_code != 200:
@@ -81,14 +73,13 @@ def fetch_hkjc_live_odds(race_number):
         if len(raw_body.strip()) <= 50:
             return {"status": "EMPTY", "msg": "通道已开，但当前场次没有实时数据吐出", "raw_text": raw_body}
             
-        # 尝试解析
         try:
             res_json = response.json()
             if "out" in res_json or "inv" in res_json:
                 return {"status": "SUCCESS", "data": res_json, "raw_text": raw_body[:1000]}
             return {"status": "EMPTY", "msg": "成功拿到完整JSON，但赛期内部特征字段尚未刷新", "raw_text": raw_body[:1000]}
         except Exception as json_err:
-            return {"status": "PARSE_ERROR", "msg": f"响应依旧未能转化为JSON（原因: {str(json_err)}）", "raw_text": raw_body[:1000]}
+            return {"status": "PARSE_ERROR", "msg": f"响应依旧未能转化为JSON", "raw_text": raw_body[:1000]}
             
     except Exception as e:
         return {"status": "ERROR", "msg": f"物理层通信崩溃: {str(e)}", "raw_text": "None"}
@@ -124,7 +115,8 @@ if mode == "📊 历史策略回测":
 elif mode == "🚨 临场实时监控":
     st.title("🚨 HKJC 临场秒级资金异动监控 (网络穿透版)")
     
-    api_result = fetch_hkjc_live_odds(race_no)
+    # 核心动作：传入可能存在的自定义 Cookie
+    api_result = fetch_hkjc_live_odds(race_no, user_cookie=live_cookie)
     
     with st.expander("🔍 开发者实时网关穿透透视镜 (Raw Data Monitor)", expanded=True):
         st.write(f"📡 目标探测URL: `https://bet.hkjc.com/racing/getJSON.aspx?type=winpla&race={race_no}`")
@@ -133,10 +125,10 @@ elif mode == "🚨 临场实时监控":
         st.code(api_result["raw_text"], language="html" if "<html" in api_result["raw_text"] else "json")
 
     if api_result["status"] == "SUCCESS":
-        st.success(f"🟢 **数据源状态**：会话Cookies注入成功！已成功穿透并灌入第 {race_no} 场沙田现场真实数据。")
+        st.success(f"🟢 **数据源状态**：深度穿透成功！已成功连接第 {race_no} 场现场大盘真实赔率。")
         is_simulation = False
     else:
-        st.warning(f"📢 **数据源状态提示**：真实大盘流尚未就绪（{api_result['msg']}）。系统自动维护【仿真沙盒】。")
+        st.warning(f"📢 **数据源状态提示**：真实大盘未激活（{api_result['msg']}）。系统自动进入【沙盒模拟】。")
         is_simulation = True
 
     st.markdown("### 📅 当前监控赛事基本信息")
@@ -150,7 +142,7 @@ elif mode == "🚨 临场实时监控":
     st.subheader(f"🕒 第 {race_no} 场开赛临场动向")
     
     if st.button("🔄 强制拉取最新秒级盘口数据"):
-        st.toast("正在重新使用智能会话向香港马会服务器发出请求...", icon="⚡")
+        st.toast("正在重新使用实战令牌向香港马会服务器发出请求...", icon="⚡")
         
     if is_simulation:
         np.random.seed(race_no + random.randint(1, 99))
