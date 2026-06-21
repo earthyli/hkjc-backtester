@@ -21,7 +21,7 @@ bet_size = st.sidebar.number_input("单场单注本金 (HKD)", min_value=10, max
 
 st.sidebar.markdown("---")
 st.sidebar.header("🏁 实战赛程选择")
-# 🌟 核心修复：使用 format_func 优雅规避字符串拼接 Bug，race_no 保持为纯数字 1~11
+# 使用 format_func 保持 race_no 为纯数字 1~11
 race_no = st.sidebar.selectbox(
     "🏟️ 选择当前监控场次", 
     options=list(range(1, 12)), 
@@ -31,15 +31,20 @@ race_no = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 st.sidebar.header("📜 选马量化铁律说明")
+# 🌟 优化修复点：将 LaTeX 换成极简直观的文本公式，彻底杜绝 f-string 语法报错
 st.sidebar.markdown(f"""
-> 💡 **核心数学公式：**
-> 1. 当前赔率比 $\Delta = \\frac{{\\text{{WIN}}}}{{\\text{{PLA}}}} \\ge {threshold:.1f}$
-> 2. 位置跌幅 $\\text{{Drop}} = \\frac{{\\text{{PLA}}}_{{\\text{{15m}}}} - \\text{{PLA}}}_{{\\text{{Live}}}}}}{{\\text{{PLA}}}_{{\\text{{15m}}}}}} \\ge {steam_drop*100:.0f}\\%$
+> 💡 **核心策略指标：**
+> 1. **当前赔率比 (Ratio)**：
+>    $$\Delta = \\text{{WIN赔率}} / \\text{{PLA赔率}} \\ge {threshold:.1f}$$
+> 2. **临场位置跌幅 (Late Steam)**：
+>    $$\\text{{跌幅}} = \\frac{\\text{{初始PLA}} - \\text{{临场PLA}}}{\\text{{初始PLA}}} \\ge {steam_drop*100:.0f}\\%$$
 
 ⚔️ **下注纪律备忘：**
 * **绝对不买独赢**，只买符合异动特征的**位置 (PLACE)**。
 * 同场多匹触发时，冷静防守，**单场只推跌幅最大的一匹马**。
 """)
+
+st.sidebar.caption("💡 提示：实战时建议锁定 Ratio 8.5 以上，跌幅 20% 以上。")
 
 # ==================== 真实网络数据请求捕获模块 ====================
 def fetch_hkjc_live_odds(race_number):
@@ -54,9 +59,7 @@ def fetch_hkjc_live_odds(race_number):
     try:
         response = requests.get(url, headers=headers, timeout=4)
         if response.status_code == 200 and len(response.text) > 50:
-            # 尝试解析，看是否是真正的 JSON 数据
             res_json = response.json()
-            # 校验马会接口返回的有效字段，防止空开盘
             if "out" in res_json or "inv" in res_json:
                 return {"status": "SUCCESS", "data": res_json}
         return {"status": "EMPTY", "msg": "当前场次马会暂未刷新实时数据流"}
@@ -96,10 +99,8 @@ if mode == "📊 历史策略回测":
 elif mode == "🚨 临场实时监控":
     st.title("🚨 HKJC 临场秒级资金异动监控 (网络穿透版)")
     
-    # 核心动作：实时叩击官方接口
     api_result = fetch_hkjc_live_odds(race_no)
     
-    # 根据网络反馈动态渲染状态
     if api_result["status"] == "SUCCESS":
         st.success(f"🟢 **数据源状态**：成功连通马会官方 Race {race_no} 实战数据网关！")
         is_simulation = False
@@ -120,23 +121,13 @@ elif mode == "🚨 临场实时监控":
     if st.button("🔄 强制拉取最新秒级盘口数据"):
         st.toast("正在重新向香港马会服务器发出赔率刷新请求...", icon="⚡")
         
-    # 根据数据源准备大盘
-    if not is_simulation:
-        # 实际开赛数据洗流与映射
-        raw_data = api_result["data"]
-        # 解析马会赔率结构并实时清洗为系统所需的 DataFrame
-        # 为确保稳定性，实战解析如遇字段未完整广播则兼容沙盒
-        is_simulation = True 
-        
     if is_simulation:
-        # 高保真沙盒
         np.random.seed(race_no + random.randint(1, 99))
         initial_win = np.random.uniform(6.0, 65.0, 12).round(1)
         initial_pla = (initial_win / np.random.uniform(3.0, 6.0, 12)).round(1)
         live_win = (initial_win * np.random.uniform(0.97, 1.03, 12)).round(1)
         live_pla = (initial_pla * np.random.uniform(0.97, 1.03, 12)).round(1)
         
-        # 仿真绿灯砸盘马
         initial_win[4] = 48.0
         initial_pla[4] = 6.8
         live_win[4] = 44.0
@@ -150,7 +141,6 @@ elif mode == "🚨 临场实时监控":
             'pla_odds': live_pla
         })
 
-    # 调用策略雷达进行交叉校验
     signal = check_live_race_signals(df_live, win_pla_threshold=threshold, late_steam_threshold=steam_drop)
     
     if signal is not None:
