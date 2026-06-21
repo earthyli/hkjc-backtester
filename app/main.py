@@ -31,13 +31,13 @@ race_no = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 st.sidebar.header("📜 选马量化铁律说明")
-# 🌟 优化修复点：将 LaTeX 换成极简直观的文本公式，彻底杜绝 f-string 语法报错
+# 🌟 终极修复：移除了所有容易引起 Python 转义崩溃的反斜杠，改用标准 Markdown 块
 st.sidebar.markdown(f"""
-> 💡 **核心策略指标：**
+> 💡 **核心策略指标公式：**
 > 1. **当前赔率比 (Ratio)**：
->    $$\Delta = \\text{{WIN赔率}} / \\text{{PLA赔率}} \\ge {threshold:.1f}$$
+>    `WIN 赔率 / PLA 赔率 >= {threshold:.1f}`
 > 2. **临场位置跌幅 (Late Steam)**：
->    $$\\text{{跌幅}} = \\frac{\\text{{初始PLA}} - \\text{{临场PLA}}}{\\text{{初始PLA}}} \\ge {steam_drop*100:.0f}\\%$$
+>    `(初始 PLA - 临场 PLA) / 初始 PLA >= {steam_drop*100:.0f}%`
 
 ⚔️ **下注纪律备忘：**
 * **绝对不买独赢**，只买符合异动特征的**位置 (PLACE)**。
